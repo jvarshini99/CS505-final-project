@@ -15,3 +15,5 @@ Create a folder named model for all fine-tuned models.
 **Huggingface-Models Folder:**
 Create a folder named huggingface-models.
 Use hf snapshot download to download base models from Hugging Face to this folder.
+
+<img width="1351" alt="image" src="https://github.com/pjayasun/CS505-final-project/assets/18529823/a61a3f6b-2c7a-49df-a994-4ec44cc8fce6">
