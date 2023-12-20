@@ -1,5 +1,7 @@
 # CS505 Final Project - Health Assistant and Emotional Support Chatbot
 
+<img width="212" alt="image" src="https://github.com/pjayasun/CS505-final-project/assets/18529823/bf981dcb-73b6-4b9e-b00c-70527700f783">
+
 ### Overview
 This project aims to create a chatbot offering health assistance and emotional support, leveraging advanced NLP models.
 
@@ -12,7 +14,7 @@ Add datasets from this Google Drive link.
 **Model Folder:**
 Create a folder named model for all fine-tuned models.
 
-<img width="1351" alt="image" src="https://github.com/pjayasun/CS505-final-project/assets/18529823/a61a3f6b-2c7a-49df-a994-4ec44cc8fce6">
+<img width="252" alt="image" src="https://github.com/pjayasun/CS505-final-project/assets/18529823/8aabcab0-7878-4f50-9d8a-b8b867af79ed">
 
 
 **Huggingface-Models Folder:**
@@ -20,4 +22,4 @@ Create a folder named huggingface-models.
 Use hf snapshot download to download base models from Hugging Face to this folder.
 
 
-<img width="1355" alt="image" src="https://github.com/pjayasun/CS505-final-project/assets/18529823/417742e8-46f0-4201-b13e-6a5f12b3ddd0">
+<img width="300" alt="image" src="https://github.com/pjayasun/CS505-final-project/assets/18529823/cab4a558-4d9f-44e3-a7b1-2403c1232e2b">
