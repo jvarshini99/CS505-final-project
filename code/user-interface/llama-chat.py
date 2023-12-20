@@ -1,16 +1,15 @@
 from langchain.llms import LlamaCpp
-from langchain import PromptTemplate
+from langchain.prompts import PromptTemplate
 from langchain.chains import ConversationChain
 from langchain.chains.conversation.memory import ConversationBufferWindowMemory
-
 import chainlit as cl
 from chainlit.playground.config import add_llm_provider
 from chainlit.playground.providers.langchain import LangchainGenericProvider
+from chainlit.input_widget import TextInput
+import tracemalloc
 
+tracemalloc.start()
 
-# Download the file here https://huggingface.co/TheBloke/Yarn-Llama-2-7B-128K-GGUF/tree/main
-# and update the path
-# MODEL_PATH = "/Users/praneshjayasundar/Documents/Gunner/Boston-University/Fall-2023/student/CS505/final-project/health-assistant/huggingface-models/mistral-7b-v0.1.Q3_K_L.gguf"
 MODEL_PATH = "/Users/praneshjayasundar/Documents/Gunner/Boston-University/Fall-2023/student/CS505/final-project/health-assistant/huggingface-models/llama2-trained-medical-v2.Q4_K_M.gguf"
 
 @cl.cache
@@ -38,6 +37,11 @@ add_llm_provider(
     LangchainGenericProvider(id=llm._llm_type, name="Llama-cpp", llm=llm, is_chat=True)
 )
 
+@cl.author_rename
+def rename(orig_author: str):
+    rename_dict = {"LLMMathChain": "Albert Einstein", "Chatbot": "Assistant"}
+    return rename_dict.get(orig_author, orig_author)
+
 
 @cl.on_chat_start
 def main():
@@ -59,7 +63,6 @@ def main():
     )
 
     cl.user_session.set("conv_chain", conversation)
-
 
 @cl.on_message
 async def main(message: cl.Message):
