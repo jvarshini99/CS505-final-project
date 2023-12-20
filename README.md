@@ -6,9 +6,9 @@
 This project aims to create a chatbot offering health assistance and emotional support, leveraging advanced NLP models.
 
 ### Data Setup
-Data Folder:
-Create a folder named data.
-Add datasets from https://drive.google.com/drive/folders/1xxpM10n4fBqkMz4mcG3ZXcwY-pn4_-0s?usp=share_link.
+- __Data Folder:__
+- Create a folder named data.
+- Add datasets from [this Google Drive link](https://drive.google.com/drive/folders/1xxpM10n4fBqkMz4mcG3ZXcwY-pn4_-0s?usp=share_link).
 
 ## Model Setup
 **Model Folder:**
