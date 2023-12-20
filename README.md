@@ -2,15 +2,15 @@
 
 <img width="212" alt="image" src="https://github.com/pjayasun/CS505-final-project/assets/18529823/bf981dcb-73b6-4b9e-b00c-70527700f783">
 
-### Overview
+## Overview
 This project aims to create a chatbot offering health assistance and emotional support, leveraging advanced NLP models.
 
 ### Data Setup
 Data Folder:
 Create a folder named data.
-Add datasets from this Google Drive link.
+Add datasets from https://drive.google.com/drive/folders/1xxpM10n4fBqkMz4mcG3ZXcwY-pn4_-0s?usp=share_link.
 
-### Model Setup
+## Model Setup
 **Model Folder:**
 Create a folder named model for all fine-tuned models.
 
@@ -21,5 +21,5 @@ Create a folder named model for all fine-tuned models.
 Create a folder named huggingface-models.
 Use hf snapshot download to download base models from Hugging Face to this folder.
 
-
 <img width="300" alt="image" src="https://github.com/pjayasun/CS505-final-project/assets/18529823/cab4a558-4d9f-44e3-a7b1-2403c1232e2b">
+
