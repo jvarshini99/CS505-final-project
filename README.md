@@ -1,5 +1,7 @@
 # CS505 Final Project - Health Assistant and Emotional Support Chatbot
 
+![image](https://github.com/pjayasun/CS505-final-project/assets/18529823/7247c529-d4cf-403e-b756-6466bff8d59f)
+
 <img width="1502" alt="image" src="https://github.com/pjayasun/CS505-final-project/assets/18529823/0ee373a9-0499-4ccf-8f3a-bb0f3e43b765">
 
 <img width="212" alt="image" src="https://github.com/pjayasun/CS505-final-project/assets/18529823/bf981dcb-73b6-4b9e-b00c-70527700f783">
